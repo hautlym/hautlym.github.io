@@ -1,0 +1,46 @@
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+    .content
+    {
+        display: block;
+        margin: 0 26px;
+    }
+    .navigation,
+    .post
+    {
+        width: 100%;
+        margin: 0;
+    }
+}
+/* Mobile */
+@media (max-width:739px)
+{
+    .header
+    {
+        display: none;
+    }
+    .content
+    {
+        display: block;
+        margin: 0 26px;
+    }
+    .about-blog-channel-content
+    {
+        display: none;
+    }
+    .post-cmt-name 
+    {
+        font-size: 14px;
+    }
+    .navigation,
+    .post
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .inspiration-img img
+    {
+        width: 44.5%;
+    }
+}

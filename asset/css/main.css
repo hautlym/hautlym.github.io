@@ -1,0 +1,428 @@
+*{
+    box-sizing: inherit;
+}
+html
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+}
+/* header */
+.header
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header i
+{
+    color: white;
+    line-height: 40px;
+    padding: 0 8px;
+    width: 44px;
+    text-align: center;
+}
+.header i:hover
+{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.about-channel
+{
+    padding: 36px 0 0;
+    font-family: "Oswald";
+    background-color: white;
+}
+.about-blog
+{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.about-blog-content
+{
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.about-blog-content span
+{
+    background-color: black;
+    color: aliceblue;
+    padding: 2px 4px;
+    display:inline-block;
+}
+.about-blog-channel
+{
+    margin-top: 26px;
+}
+.about-blog-channel img
+{
+    max-width: 100%;
+    
+}
+.about-blog-wrap
+{
+    max-width: 100%;
+    position: relative;
+}
+.about-blog-content-actor
+{
+    position: absolute;
+    bottom: 50%;
+    padding: 0 34px;
+    transform: translateY(50%);
+}
+.about-blog-actor
+{
+    color: white;
+    font-size: 50px;
+}
+.about-blog-channel-content
+{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+.button-channel
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 12px 10px;
+    width: 130px;
+    opacity: 0.7;
+}
+.button-channel:hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+/* post */
+.content 
+{
+    display: flex;
+}
+.post
+{
+    width: 65%;
+    margin: 0 26px;
+}
+.warp-post
+{
+    background-color: #fff;
+    margin: 12px 0;
+}
+.title
+{
+    font-size:22px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.title-description
+{
+    font-size:18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.title-description span
+{
+    opacity: 0.5;
+}
+.post-img img
+{
+    width: 100%;
+    padding: 2px 20px;
+}
+.post-content
+{
+    padding: 26px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.post-btn
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 30px;
+}
+
+.btn-like
+{
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+.btn-like:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.btn-replies
+{
+    background-color: black;
+    color: white;
+    padding:10px 14px;
+    font-weight: bold;
+}
+.btn-replies:hover
+{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+.btn-replies span 
+{
+    background-color: white;
+    padding: 2px 11px;
+    color: black;
+}
+.post-cmt
+{
+    display: flex;
+    padding: 26px 0px;
+    margin: 0 20px;
+    border-top: 1px solid #ccc;
+}
+.post-cmt-avt img
+{
+    width: 90px;
+}
+.post-cmt-content
+{
+    padding: 0px 46px;
+}
+.post-cmt-name
+{
+    font-size: 20px;
+}
+.post-cmt-name span
+{
+    opacity: 0.5;
+}
+.post-cmt-description
+{
+    font-size: 18px;
+}
+.navigation
+{
+    width: 35%;
+    margin: 0 12px;
+}
+.navigation-about
+{
+    padding: 18px 0;
+}
+.navigation-about img
+{
+    width: 100%;
+    filter:grayscale(70%)
+}
+.navigation-about-content
+{
+    background-color: #000;
+    color: #fff;
+    margin: -4px 0;
+}
+.my-name
+{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 12px;
+}
+.navigation-description
+{
+    padding: 0 12px 12px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.list-head
+{
+    background: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+.popular-list
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: white;
+}
+.popular-item
+{
+    padding: 0;
+    list-style: none;
+    background: white;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 18px;
+
+}
+.popular-item:last-child
+{
+    border-bottom: none;
+}
+.popular-item:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.popular-img
+{
+    width: 50px;
+}
+.popular-content
+{
+    padding: 0 18px
+}
+.popular-name
+{
+    font-size: 24px;
+}
+.popular-description
+{
+    font-size: 18px;
+    padding: 3px 0;
+}
+.advertise div
+{
+    border: 12px solid #fff;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+
+}
+.tag-list
+{
+    background-color: #fff;
+    color: #000;
+    padding: 12px;
+}
+.tag-non-action 
+{
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #000;
+    margin: 8px 4px ;
+    padding: 2px 4px;
+    font-size: 16px;
+}
+.tag-action
+{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    margin:4px;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.inspiration-img
+{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:8px;
+}
+.inspiration-img img
+{
+    width: 46.5%;
+    margin: 8px;
+}
+.follow-me-icon
+{
+    background-color: #ffff;
+    color: #000;
+    padding: 0 8px;
+}
+.follow-me-icon i
+{
+    font-size: 22px;
+    padding: 12px 6px;
+}
+.follow-me-icon i:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.Subcribe-content
+{
+    background-color: #fff;
+    padding:18px;
+}
+.Subcribe-description
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.input-email
+{
+    width: 100%;
+    padding: 6px;
+    font-size: 20px;
+    margin: 9px 0;
+}
+.Input-btn
+{
+    width: 100%;
+    background-color: #F44336;
+    color: #fff;
+    font-size: 18px;
+    margin: 9px 0;
+    padding: 6px;
+}
+.Input-btn:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+}
+.footer
+{
+    margin-top: 12px;
+    background-color: #616161;
+    padding: 30px;
+}
+.footer-button a
+{
+
+    background-color: #000;
+    color: #fff;
+    width:122px;
+    padding: 10px 15px;
+}
+.footer-button a:hover
+{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+.footer-button a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-content
+{
+    margin-top: 30px;
+    color: #fff;
+}
+.footer-content a
+{
+    color: #fff;
+}
